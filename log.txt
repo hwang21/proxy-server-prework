@@ -1,0 +1,6 @@
+echoServer listening @ 127.0.0.1:8000
+proxyServer listening @ 127.0.0.1:8001
+proxyServer
+{"host":"127.0.0.1:8001","user-agent":"curl/7.43.0","accept":"*/*","foo":"bar","x-destination-url":"127.0.0.1:8000"}
+echoServer
+{"host":"127.0.0.1:8000","user-agent":"curl/7.43.0","accept":"*/*","foo":"bar","x-destination-url":"127.0.0.1:8000","connection":"close"}
